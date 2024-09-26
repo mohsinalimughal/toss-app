@@ -74,3 +74,12 @@ button:active{
      height: 4vw;
      font-size: 1.5vw;
 }
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    width: inherit;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+}
