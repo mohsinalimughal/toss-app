@@ -60,9 +60,9 @@
         background-color: rgb(0, 183, 255);
          padding: 1vw 2vw;
          border-radius: 0.5vw;
-         width: 9vw;
-         height: 4vw;
-         font-size: 1.5vw;
+         width: 20vw;
+         height: 8vw;
+         font-size: 3.5vw;
          letter-spacing: 2px;
     }
     button:active{
@@ -70,9 +70,19 @@
         background-color: rgb(0, 110, 255);
          padding: 1vw 2vw;
          border-radius: 0.5vw;
-         width: 9vw;
-         height: 4vw;
-         font-size: 1.5vw;
+         width: 20vw;
+         height: 8vw;
+         font-size: 3.5vw;
     }
+    .score{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+        width: inherit;
+        padding: 1.5vw;
+        font-size: 4vw;
+    }
+    
     
   }
